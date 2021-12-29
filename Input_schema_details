@@ -59,7 +59,22 @@ Lookup/Reference Table - Aircraft
 
 Attributes - Airline ID, Carrier, flightnum, Tailnum
 
- 
+AirlineID
+Carrier
+TailNum
+FlightNum
+
+
+OriginAirportID
+OriginCityMarketID
+OriginCityName
+OriginStateName
+
+
+DestAirportID
+DestCityMarketID
+DestCityName
+DestStateName
 
 Lookup/Reference Table - Schedule & Cost
 
