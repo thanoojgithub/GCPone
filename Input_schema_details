@@ -1,0 +1,85 @@
+Approach 1: We will pick below mentioned columns from existing data and create reports out of it.
+Columns:
+Year
+Quarter
+Month
+DayofMonth
+DayOfWeek
+FlightDate
+UniqueCarrier
+AirlineID
+Carrier
+TailNum
+FlightNum
+OriginAirportID
+OriginCityMarketID
+OriginCityName
+OriginStateName
+DestAirportID
+DestCityMarketID
+DestCityName
+DestStateName
+DepTime
+DepDelay
+DepDelayMinutes
+ArrTime
+ArrDelay
+ArrDelayMinutes
+Cancelled
+CancellationCode
+Diverted
+AirTime
+Flights
+Distance
+
+ 
+Reports: We can have reports regarding flight categorized by following criteria.
+
+1. Year
+2. Month
+3. Quarter
+4. Airline
+5. City
+6. State
+7. Cancelled flights etc
+
+ 
+
+Approach 2: We can add user details along with existing flight details.
+
+ 
+
+Lookup/Reference Table - Airport
+
+Attributes - Airport ID, Airport Name, Country, State, City
+
+ 
+
+Lookup/Reference Table - Aircraft
+
+Attributes - Airline ID, Carrier, flightnum, Tailnum
+
+ 
+
+Lookup/Reference Table - Schedule & Cost
+
+Attributes - First_Name, Last_Name, Phone_No, Email_id, Id_No, flightnum, Origin_Airport, Destination_Airport, ClassType, Exp Dep Time, Exp Arr Time, Cost
+
+ 
+
+Reports:
+
+    Daily Booking details report/ Monthly/ Quarterly/ Yearly
+    Customer Survey report
+    Frequent travelling passengers
+    Revenue analysis may be per route
+    Highest km running flights per day
+    Most number of times delayed flights per month
+
+ 
+
+Note: For Approach 2, we have to add user details manually.
+
+ 
+
+Please go through the approaches and let me know if anything has to be added/modified. We will discuss more and finalize the data.
