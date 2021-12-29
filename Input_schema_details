@@ -35,6 +35,55 @@ Distance
  
 Reports: We can have reports regarding flight categorized by following criteria.
 
+
+
+
+
+
+
+
+
+Table 1 - Airport_Details
+AirportID
+CityMarketId 
+CityName
+StateName
+
+Table 2 - Airline Details
+AirlineID
+Carrier
+TailNum
+FlightNum
+
+
+Table 3 - Cancellation details 
+CancellationCode
+Cancellation details
+
+
+Table 4 - flight tickets detials - main input table
+Year
+Quarter
+Month
+DayofMonth
+DayOfWeek
+FlightDate
+TailNum
+OriginAirportID
+DestAirportID
+DepTime
+DepDelay
+DepDelayMinutes
+ArrTime
+ArrDelay
+ArrDelayMinutes
+Cancelled
+CancellationCode
+Diverted
+AirTime
+Flights
+Distance
+
 1. Year
 2. Month
 3. Quarter
